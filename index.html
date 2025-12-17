@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transforme suas ideias em realidade com nossa decoração personalizada. Decoração para festas, miniaturas e velas customizadas.">
+    <meta name="keywords" content="decoração, festas, miniaturas, velas customizadas, decoração personalizada">
+    <meta name="author" content="Patil Moniz Decorações">
+    <meta property="og:title" content="Quer Comprar a Decoração dos seus Sonhos?">
+    <meta property="og:description" content="Vamos Transformar suas ideias em cada detalhe!!!">
+    <meta property="og:type" content="website">
+    <title>Patil Moniz Decorações - Transforme suas Ideias em Realidade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gradient-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(102, 126, 234, 0.4);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: #667eea;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Announcement Bar -->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 px-4 text-center text-sm md:text-base">
+        <p class="flex items-center justify-center gap-2">
+            <i class="fas fa-truck"></i>
+            Entrega Rápida em Todo o Brasil - Receba em até 5 dias!
+        </p>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-wand-magic-sparkles text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold gradient-text hidden sm:inline">Patil Moniz</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="#home" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Home</a>
+                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Produtos</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Benefícios</a>
+                    <a href="#about" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Sobre</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Avaliações</a>
+                    <a href="#faq" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">FAQ</a>
+                    <a href="#contact" class="text-gray-700 hover:text-purple-600 transition duration-300 text-sm font-medium">Contato</a>
+                </nav>
+
+                <!-- Desktop Search & CTA -->
+                <div class="hidden md:flex items-center gap-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Buscar..." class="px-4 py-2 bg-gray-100 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-600 transition duration-300">
+                        <i class="fas fa-search absolute right-3 top-3 text-gray-500"></i>
+                    </div>
+                    <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-6 py-2 rounded-lg font-semibold text-sm">Comprar Agora</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-gray-700 hover:text-purple-600 transition duration-300">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <nav class="mobile-menu hidden md:hidden pb-4 border-t border-gray-200">
+                <div class="flex flex-col gap-3 pt-4">
+                    <a href="#home" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Home</a>
+                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Produtos</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Benefícios</a>
+                    <a href="#about" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Sobre</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Avaliações</a>
+                    <a href="#faq" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">FAQ</a>
+                    <a href="#contact" class="text-gray-700 hover:text-purple-600 transition duration-300 py-2 px-2 rounded hover:bg-gray-50">Contato</a>
+                    <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-4 py-2 rounded-lg font-semibold text-center mt-2">Comprar Agora</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative w-full h-screen md:h-[600px] bg-cover bg-center flex items-center justify-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1600&h=900&fit=crop&q=80');">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight tracking-tight">
+                Quer Comprar a Decoração dos seus Sonhos?
+            </h1>
+            <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light mb-8 md:mb-10 leading-relaxed tracking-wide">
+                Vamos Transformar suas ideias em cada detalhe!!!
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-base md:text-lg inline-flex items-center gap-2 hover:shadow-2xl">
+                    <i class="fas fa-shopping-cart"></i>
+                    Começar Agora
+                </a>
+                <a href="#features" class="bg-white text-purple-600 px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-gray-100 transition duration-300 inline-flex items-center gap-2">
+                    <i class="fas fa-arrow-down"></i>
+                    Conhecer Produtos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">Nossos Produtos</h2>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Descubra uma variedade completa de soluções decorativas para transformar seus eventos e espaços
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
+                <!-- Feature 1: Decoração para Festas -->
+                <div class="card-hover bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl border border-purple-100 hover:border-purple-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mb-6 feature-icon">
+                        <i class="fas fa-balloon text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-900">Decoração para Festas</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Transforme seus eventos com nossas decorações criativas e personalizadas. Desde aniversários até casamentos, temos tudo que você precisa para criar momentos inesquecíveis.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-purple-600"></i>
+                            <span>Temas personalizados</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-purple-600"></i>
+                            <span>Designs exclusivos</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-purple-600"></i>
+                            <span>Montagem profissional</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Miniaturas -->
+                <div class="card-hover bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl border border-blue-100 hover:border-blue-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6 feature-icon">
+                        <i class="fas fa-cube text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-900">Miniaturas</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Coleções de miniaturas detalhadas e artesanais para colecionadores e entusiastas. Cada peça é criada com precisão e atenção aos detalhes.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Artesanato de qualidade</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Modelos únicos</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-blue-600"></i>
+                            <span>Acabamento premium</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Velas Customizadas -->
+                <div class="card-hover bg-gradient-to-br from-pink-50 to-orange-50 p-8 rounded-2xl border border-pink-100 hover:border-pink-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-gradient-to-r from-pink-600 to-orange-600 rounded-full mb-6 feature-icon">
+                        <i class="fas fa-fire text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-4 text-gray-900">Velas Customizadas</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Velas aromáticas personalizadas com fragrâncias exclusivas e designs únicos. Perfeitas para presentear ou decorar seus ambientes com elegância.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-pink-600"></i>
+                            <span>Fragrâncias selecionadas</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-pink-600"></i>
+                            <span>Personalização completa</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-700">
+                            <i class="fas fa-check-circle text-pink-600"></i>
+                            <span>Embalagem premium</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">Por Que Escolher a Gente?</h2>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Entenda os benefícios de confiar em nossos serviços para suas necessidades decorativas
+                </p>
+            </div>
+
+            <!-- Benefit 1: Realize Your Dream -->
+            <div class="mb-16 md:mb-24">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80" alt="Realize Your Dream" class="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition duration-500 object-cover">
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h3 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Realize Seus Sonhos</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                            Transformamos suas ideias mais criativas em realidade. Com nossa equipe de designers experientes, cada projeto é único e personalizado de acordo com sua visão. Não importa o quão ambicioso seja seu sonho, estamos aqui para torná-lo realidade com qualidade excepcional.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-purple-600">
+                                        <i class="fas fa-star text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Criatividade Ilimitada</h4>
+                                    <p class="text-gray-600">Sem limites para sua imaginação e visão criativa</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-purple-600">
+                                        <i class="fas fa-star text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Execução Profissional</h4>
+                                    <p class="text-gray-600">Equipe experiente com anos de expertise</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-purple-600">
+                                        <i class="fas fa-star text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Resultado Impecável</h4>
+                                    <p class="text-gray-600">Qualidade garantida em cada projeto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-8 py-3 rounded-lg font-semibold inline-flex items-center gap-2 mt-8 hover:shadow-xl">
+                            <i class="fas fa-arrow-right"></i>
+                            Começar Seu Projeto
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 2: Personalized Details -->
+            <div class="mb-16 md:mb-24 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Detalhes Personalizados</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                            Sabemos que os detalhes fazem toda a diferença. Por isso, cada elemento de nossos projetos é cuidadosamente planejado e executado. Desde cores até texturas, tudo é pensado para criar uma experiência visual perfeita que reflita sua personalidade e estilo único.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-pink-600">
+                                        <i class="fas fa-palette text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Paleta de Cores Customizada</h4>
+                                    <p class="text-gray-600">Escolha as cores que melhor representam seu estilo</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-pink-600">
+                                        <i class="fas fa-wand-magic-sparkles text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Acabamento Premium</h4>
+                                    <p class="text-gray-600">Materiais de alta qualidade em cada projeto</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-pink-600">
+                                        <i class="fas fa-check-double text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Revisões Ilimitadas</h4>
+                                    <p class="text-gray-600">Até que você esteja 100% satisfeito</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-8 py-3 rounded-lg font-semibold inline-flex items-center gap-2 mt-8 hover:shadow-xl">
+                            <i class="fas fa-arrow-right"></i>
+                            Ver Portfólio
+                        </a>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=600&fit=crop&q=80" alt="Personalized Details" class="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition duration-500 object-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 3: Do seu jeito -->
+            <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&h=600&fit=crop&q=80" alt="Do seu jeito" class="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition duration-500 object-cover">
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h3 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Do Seu Jeito</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                            Você tem controle total sobre como quer que seu projeto seja executado. Desde o conceito inicial até o resultado final, trabalhamos em parceria com você para garantir que tudo seja feito exatamente como você deseja. Sua satisfação é nossa prioridade número um.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-orange-600">
+                                        <i class="fas fa-handshake text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Colaboração Total</h4>
+                                    <p class="text-gray-600">Sua opinião importa em cada etapa do processo</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-orange-600">
+                                        <i class="fas fa-clock text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Prazos Flexíveis</h4>
+                                    <p class="text-gray-600">Ajustamos nossos cronogramas às suas necessidades</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-10 w-10 rounded-full bg-orange-600">
+                                        <i class="fas fa-thumbs-up text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-1">Satisfação Garantida</h4>
+                                    <p class="text-gray-600">100% de reembolso se não estiver satisfeito</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="gradient-button text-white px-8 py-3 rounded-lg font-semibold inline-flex items-center gap-2 mt-8 hover:shadow-xl">
+                            <i class="fas fa-arrow-right"></i>
+                            Solicitar Orçamento
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-gradient-to-br from-purple-50 via-white to-pink-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">Sobre Nós</h2>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Conheça a história e a missão por trás de cada projeto que criamos
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mb-12 md:mb-16">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&q=80" alt="Sobre Patil Moniz Decorações" class="w-full h-auto rounded-2xl shadow-lg hover:shadow-2xl transition duration-500 object-cover">
+                </div>
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-6 text-gray-900">Nossa História</h3>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        Patil Moniz Decorações nasceu de uma paixão genuína por transformar espaços e eventos em experiências memoráveis. Iniciamos nossa jornada em 2015 com uma pequena equipe de designers apaixonados, trabalhando em um pequeno estúdio. Ao longo dos anos, nossa dedicação à qualidade e inovação nos permitiu crescer e servir centenas de clientes satisfeitos em todo o Brasil.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        Cada projeto que realizamos carrega consigo a nossa essência: criatividade sem limites, atenção aos detalhes e um compromisso inabalável com a satisfação do cliente. Hoje, somos reconhecidos como uma das principais referências em decoração personalizada, miniaturas artesanais e velas customizadas do mercado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-purple-100">
+                <h3 class="text-2xl md:text-3xl font-bold mb-6 text-gray-900">Nossa Missão e Valores</h3>
+                <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                    Nossa missão é simples, porém poderosa: transformar ideias em realidade, criando decorações e produtos que não apenas embelezam espaços, mas também criam memórias duradouras. Acreditamos que cada detalhe conta e que a qualidade nunca deve ser comprometida. Nos guiam valores como integridade, criatividade, excelência e compromisso com nossos clientes.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl">
+                        <i class="fas fa-lightbulb text-3xl text-purple-600 mb-3"></i>
+                        <h4 class="font-bold text-gray-900 mb-2">Inovação</h4>
+                        <p class="text-gray-600">Sempre buscando novas ideias e formas criativas de surpreender</p>
+                    </div>
+                    <div class="text-center p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl">
+                        <i class="fas fa-heart text-3xl text-pink-600 mb-3"></i>
+                        <h4 class="font-bold text-gray-900 mb-2">Paixão</h4>
+                        <p class="text-gray-600">Dedicação total em cada projeto que realizamos</p>
+                    </div>
+                    <div class="text-center p-6 bg-gradient-to-br from-pink-50 to-orange-50 rounded-xl">
+                        <i class="fas fa-star text-3xl text-orange-600 mb-3"></i>
+                        <h4 class="font-bold text-gray-900 mb-2">Excelência</h4>
+                        <p class="text-gray-600">Qualidade premium em cada aspecto do trabalho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">O Que Nossos Clientes Dizem</h2>
+                <p class="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Descubra por que nossos clientes nos escolhem para transformar seus projetos em realidade
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 lg:gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-2xl p-8 hover:border-purple-300 hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "Patil Moniz transformou completamente meu casamento! A decoração foi absolutamente perfeita, cada detalhe exatamente como imaginei. A equipe foi profissional, atenciosa e criativa. Recomendo para todos os meus amigos!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center text-white font-bold">
+                            MG
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Marina Garcia</p>
+                            <p class="text-sm text-gray-600">Noiva, São Paulo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-2xl p-8 hover:border-purple-300 hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "As velas customizadas que encomendei foram um sucesso absoluto! A qualidade é excelente, as fragrâncias são deliciosas e a embalagem é belíssima. Já fiz mais pedidos como presente para amigos e familiares."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
+                            CF
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Carlos Ferreira</p>
+                            <p class="text-sm text-gray-600">Empresário, Rio de Janeiro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-2xl p-8 hover:border-purple-300 hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "Minha festa de aniversário foi inesquecível graças à Patil Moniz! A decoração estava lindíssima e todos os meus convidados comentaram. O atendimento foi impecável do início ao fim. Voltarei com certeza!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-pink-600 to-orange-600 rounded-full flex items-center justify-center text-white font-bold">
+                            JL
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Juliana Lima</p>
+                            <p class="text-sm text-gray-600">Produtora de Eventos, Belo Horizonte</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white border border-gray-200 rounded-2xl p-8 hover:border-purple-300 hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "Colecionador de miniaturas há anos, posso dizer que as peças da Patil Moniz são de excelente qualidade. O acabamento é impecável, os detalhes são incríveis e o preço é justo. Já comprei várias vezes!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-orange-600 to-red-600 rounded-full flex items-center justify-center text-white font-bold">
+                            RS
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900">Roberto Silva</p>
+                            <p class="text-sm text-gray-600">Colecionador, Curitiba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">Perguntas Frequentes</h2>
+                <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                    Encontre respostas para as dúvidas mais comuns sobre nossos serviços e produtos
+                </p>
+            </div>
+
+            <div class="space-y-4 md:space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-purple-300 transition duration-300">
+                    <button class="faq-question w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition duration-300">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-900 text-left">
+                            <i class="fas fa-question-circle text-purple-600 mr-3"></i>
+                            Qual é o tempo de entrega para meus pedidos?
+                        </h3>
+                        <i class="fas fa-chevron-down faq-icon text-purple-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-5 md:pb-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Nosso tempo de entrega padrão é de 5 dias úteis para todo o Brasil. Para projetos personalizados e customizações especiais, o prazo pode variar de 7 a 15 dias úteis, dependendo da complexidade do projeto. Oferecemos também a opção de entrega expressa para clientes que precisam de urgência. Você receberá uma confirmação do prazo específico ao fazer seu pedido.
+                        </p>
+                        <p class="text-gray-600 text-sm">
+                            <i class="fas fa-info-circle text-purple-600 mr-2"></i>
+                            Os prazos começam a contar após a confirmação do pagamento e aprovação do projeto.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-purple-300 transition duration-300">
+                    <button class="faq-question w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition duration-300">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-900 text-left">
+                            <i class="fas fa-question-circle text-purple-600 mr-3"></i>
+                            Como funciona o processo de personalização?
+                        </h3>
+                        <i class="fas fa-chevron-down faq-icon text-purple-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-5 md:pb-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Nosso processo de personalização é simples e colaborativo. Primeiro, você nos fornece suas ideias, preferências de cores, tema e qualquer referência visual que tenha. Nossa equipe de designers então cria um projeto inicial baseado em suas especificações. Você pode revisar e solicitar alterações quantas vezes precisar até ficar 100% satisfeito.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Uma vez aprovado, iniciamos a produção. Você receberá atualizações do progresso e fotos do projeto em desenvolvimento. Oferecemos revisões ilimitadas durante todo o processo para garantir que o resultado final seja exatamente o que você esperava.
+                        </p>
+                        <div class="bg-purple-50 border border-purple-200 rounded-lg p-4 mt-4">
+                            <p class="text-sm text-gray-700">
+                                <strong>Dica:</strong> Quanto mais detalhes e referências você nos fornecer, melhor será o resultado final!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-purple-300 transition duration-300">
+                    <button class="faq-question w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition duration-300">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-900 text-left">
+                            <i class="fas fa-question-circle text-purple-600 mr-3"></i>
+                            Vocês oferecem garantia de satisfação?
+                        </h3>
+                        <i class="fas fa-chevron-down faq-icon text-purple-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-5 md:pb-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Sim! Oferecemos uma garantia de 100% de satisfação. Se você não estiver completamente satisfeito com seu pedido, oferecemos as seguintes opções:
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                            <li>Reembolso total sem perguntas</li>
+                            <li>Reexecução do projeto com as alterações solicitadas</li>
+                            <li>Crédito para futuras compras</li>
+                        </ul>
+                        <p class="text-gray-700 leading-relaxed">
+                            Sua satisfação é nossa prioridade máxima. Temos 30 dias após a entrega para processar devoluções ou solicitações de reembolso. Basta entrar em contato conosco através do email patilmoniz@gmail.com.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-purple-300 transition duration-300">
+                    <button class="faq-question w-full px-6 md:px-8 py-5 md:py-6 flex items-center justify-between hover:bg-gray-50 transition duration-300">
+                        <h3 class="text-lg md:text-xl font-semibold text-gray-900 text-left">
+                            <i class="fas fa-question-circle text-purple-600 mr-3"></i>
+                            Qual é o valor mínimo para fazer um pedido?
+                        </h3>
+                        <i class="fas fa-chevron-down faq-icon text-purple-600 flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 md:px-8 pb-5 md:pb-6 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Não temos um valor mínimo obrigatório para pedidos! Você pode encomendar desde uma única miniatura até decorações completas para grandes eventos. Oferecemos opções para todos os orçamentos e necessidades.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            Para pedidos pequenos, você pode aproveitar nossas coleções pré-prontas de miniaturas ou velas. Para projetos maiores e personalizados, recomendamos solicitar um orçamento customizado para receber o melhor preço.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            <strong>Entre em contato conosco pelo email patilmoniz@gmail.com para receber um orçamento personalizado sem compromisso!</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 md:p-12 text-center text-white">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4">Ainda tem dúvidas?</h3>
+                <p class="text-lg mb-6 opacity-90">
+                    Nossa equipe está pronta para ajudar! Entre em contato conosco para esclarecer qualquer dúvida.
+                </p>
+                <a href="mailto:patilmoniz@gmail.com" class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 inline-flex items-center gap-2">
+                    <i class="fas fa-envelope"></i>
+                    Enviar Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 bg-gradient-to-r from-purple-900 via-purple-800 to-pink-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-white rounded-full -mr-48 -mt-48"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full -ml-48 -mb-48"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                Pronto para Transformar Suas Ideias em Realidade?
+            </h2>
+            <p class="text-lg md:text-xl mb-8 opacity-90 leading-relaxed">
+                Não espere mais! Comece seu projeto hoje e descubra como podemos ajudá-lo a criar algo verdadeiramente especial.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="bg-white text-purple-600 px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 inline-flex items-center gap-2">
+                    <i class="fas fa-shopping-cart"></i>
+                    Começar Agora
+                </a>
+                <a href="#contact" class="border-2 border-white text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-white hover:text-purple-600 transition duration-300 transform hover:scale-105 inline-flex items-center gap-2">
+                    <i class="fas fa-envelope"></i>
+                    Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 gradient-text">Entre em Contato</h2>
+                <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                    Estamos aqui para responder suas perguntas e ajudar com seu projeto
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12 md:mb-16">
+                <!-- Contact Info -->
+                <div class="space-y-8">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-purple-600">
+                                <i class="fas fa-envelope text-white text-lg"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Email</h3>
+                            <a href="mailto:patilmoniz@gmail.com" class="text-purple-600 hover:text-purple-700 font-semibold text-lg break-all">
+                                patilmoniz@gmail.com
+                            </a>
+                            <p class="text-gray-600 text-sm mt-2">Responderemos em até 24 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-pink-600">
+                                <i class="fas fa-map-marker-alt text-white text-lg"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Localização</h3>
+                            <p class="text-gray-600 font-semibold">Brasil</p>
+                            <p class="text-gray-600 text-sm mt-1">Atendemos clientes em todo o país</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-orange-600">
+                                <i class="fas fa-clock text-white text-lg"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Horário de Atendimento</h3>
+                            <p class="text-gray-600 font-semibold">Segunda a Sexta</p>
+                            <p class="text-gray-600 text-sm">9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-semibold text-gray-900 mb-2">Nome Completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 transition duration-300" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-semibold text-gray-900 mb-2">Email</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 transition duration-300" required>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-semibold text-gray-900 mb-2">Assunto</label>
+                            <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 transition duration-300" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-semibold text-gray-900 mb-2">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Sua mensagem..." class="w-full px-4 py-3 rounded-lg bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 transition duration-300 resize-none" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full gradient-button text-white px-6 py-3 rounded-lg font-bold text-lg hover:shadow-xl">
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Policies -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 bg-gray-50 rounded-2xl p-8 md:p-12 border border-gray-200">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-truck text-3xl text-purple-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 mb-2">Entrega Rápida</h3>
+                        <p class="text-gray-600">Entrega em todo o Brasil em até 5 dias úteis com rastreamento completo</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-undo text-3xl text-pink-600"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-900 mb-2">Satisfação Garantida</h3>
+                        <p class="text-gray-600">100% de reembolso se não estiver satisfeito com sua compra</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-6 mb-8 md:mb-12">
+                <!-- Column 1: About -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-wand-magic-sparkles text-white text-sm"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">Patil Moniz</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4">
+                        Transformando ideias em realidade através de decorações personalizadas, miniaturas artesanais e velas customizadas.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-pinterest text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Links Rápidos</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="hover:text-purple-400 transition duration-300">Home</a></li>
+                        <li><a href="#features" class="hover:text-purple-400 transition duration-300">Produtos</a></li>
+                        <li><a href="#benefits" class="hover:text-purple-400 transition duration-300">Benefícios</a></li>
+                        <li><a href="#about" class="hover:text-purple-400 transition duration-300">Sobre Nós</a></li>
+                        <li><a href="#testimonials" class="hover:text-purple-400 transition duration-300">Avaliações</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Information -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Informações</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#faq" class="hover:text-purple-400 transition duration-300">FAQ</a></li>
+                        <li><a href="#contact" class="hover:text-purple-400 transition duration-300">Contato</a></li>
+                        <li><a href="blog.html" class="hover:text-purple-400 transition duration-300">Blog</a></li>
+                        <li><a href="privacy.html" class="hover:text-purple-400 transition duration-300">Política de Privacidade</a></li>
+                        <li><a href="terms.html" class="hover:text-purple-400 transition duration-300">Termos de Serviço</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contato</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-envelope text-purple-400"></i>
+                            <a href="mailto:patilmoniz@gmail.com" class="hover:text-purple-400 transition duration-300 break-all">patilmoniz@gmail.com</a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-map-marker-alt text-purple-400"></i>
+                            <span>Brasil</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-clock text-purple-400"></i>
+                            <span>Seg-Sex: 9:00-18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8 md:pt-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center">
+                    <p class="text-sm text-gray-400">
+                        &copy; 2024 Patil Moniz Decorações. Todos os direitos reservados.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 md:justify-end">
+                        <a href="privacy.html" class="text-sm text-gray-400 hover:text-purple-400 transition duration-300">Política de Privacidade</a>
+                        <span class="text-gray-600 hidden sm:inline">|</span>
+                        <a href="terms.html" class="text-sm text-gray-400 hover:text-purple-400 transition duration-300">Termos de Serviço</a>
+                        <span class="text-gray-600 hidden sm:inline">|</span>
+                        <a href="blog.html" class="text-sm text-gray-400 hover:text-purple-400 transition duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-300 opacity-0 invisible" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+
+            // Back to Top Button
+            const backToTopButton = document.getElementById('backToTop');
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.remove('opacity-0', 'invisible');
+                    backToTopButton.classList.add('opacity-100', 'visible');
+                } else {
+                    backToTopButton.classList.add('opacity-0', 'invisible');
+                    backToTopButton.classList.remove('opacity-100', 'visible');
+                }
+            });
+
+            // Contact Form Handler
+            const contactForm = document.querySelector('form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+                    
+                    // Simulate form submission
+                    const submitButton = this.querySelector('button[type="submit"]');
+                    const originalText = submitButton.innerHTML;
+                    submitButton.innerHTML = '<i class="fas fa-check"></i> Mensagem Enviada!';
+                    submitButton.classList.add('bg-green-600');
+                    
+                    setTimeout(() => {
+                        submitButton.innerHTML = originalText;
+                        submitButton.classList.remove('bg-green-600');
+                        this.reset();
+                    }, 3000);
+                });
+            }
+
+            // Scroll animations for elements
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.card-hover, .testimonial-card').forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
